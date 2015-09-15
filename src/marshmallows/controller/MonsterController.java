@@ -10,10 +10,10 @@ public class MonsterController
 	
 	public MonsterController()
 	{
-		int eyes = 5;
-		double legs = 3;
-		double hair = 2;
-		int noses = 4;
+		int eyes = 1;
+		double legs = 2;
+		double hair = 1;
+		int noses = 3;
 		boolean hasbellybutton =  true;
 		String name = "Harkonnen Splat";
 		
@@ -23,6 +23,15 @@ public class MonsterController
 	public void start()
 	{
 		myOutput.displayMonsterInfo(jordanMonster.toString());
+		askQuestions();
+		myOutput.displayMonsterInfo("New Monster Info" + jordanMonster.toString());
+	}
+	
+	private void askQuestions()
+	{
+		
 	}
 
+	
+	
 }
