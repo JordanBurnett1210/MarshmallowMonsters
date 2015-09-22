@@ -12,10 +12,6 @@ public class MarshmallowOutput
 	public void displayMonsterGUI(String info)
 	{
 		JOptionPane.showMessageDialog(null, "My monster information is: " + info);
-		JOptionPane.showInputDialog(null, "Type in your monster's name");
-		JOptionPane.showInputDialog(null, "Type it's number of eyes");
-		JOptionPane.showInputDialog(null, "Type it's number of noses");
-		
 	}
 	
 }

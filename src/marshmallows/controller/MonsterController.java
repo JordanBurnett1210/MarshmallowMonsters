@@ -2,7 +2,10 @@ package marshmallows.controller;
 
 import marshmallow.model.MarshmallowMonster;
 import marshmallows.view.MarshmallowOutput;
+
 import java.util.Scanner;
+
+import javax.swing.JOptionPane;
 
 public class MonsterController
 {
@@ -75,17 +78,17 @@ public class MonsterController
 		boolean userBellyButton;
 		
 		//Step two: Define variables by using Scanner to get user input.
-		System.out.println("Type in your monster's name.");
+		JOptionPane.showInputDialog("Type in your monster's name.");
 		userName = monsterScanner.nextLine();
-		System.out.println("Type in the number of eyes for your monster");
+		JOptionPane.showInputDialog("Type in the number of eyes for your monster");
 		userEyes = monsterScanner.nextInt();
-		System.out.println("Type in the number of noses for your monster");
+		JOptionPane.showInputDialog("Type in the number of noses for your monster");
 		userNoses = monsterScanner.nextInt();
-		System.out.println("Type in the number of hairs for your monster");
+		JOptionPane.showInputDialog("Type in the number of hairs for your monster");
 		userHair = monsterScanner.nextDouble();
-		System.out.println("Type in the number of legs for your monster");
+		JOptionPane.showInputDialog("Type in the number of legs for your monster");
 		userLegs = monsterScanner.nextDouble();
-		System.out.println("Does it have a bellybutton? Type true or false.");
+		JOptionPane.showInputDialog("Does it have a bellybutton? Type true or false.");
 		userBellyButton = monsterScanner.nextBoolean();
 		
 		//Step three: Make a monster - use the Constructor!! Remember that the order of parameters matters!
