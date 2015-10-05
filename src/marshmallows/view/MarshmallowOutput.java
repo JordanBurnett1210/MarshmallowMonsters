@@ -8,10 +8,5 @@ public class MarshmallowOutput
 	{
 		System.out.println("My monster info is: " + info);
 	}
-
-	public void displayMonsterGUI(String info)
-	{
-		JOptionPane.showMessageDialog(null, "My monster information is: " + info);
-	}
 	
 }
